@@ -1,0 +1,21 @@
+.nav{
+  color:red;
+  font-size:20px;
+  padding-left: 10%;
+}
+body{
+  background-color: aliceblue;
+}
+.display{
+  font-size: 80px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+ button{
+  height: 50px;
+  width: 200px;
+ }
+ .btn{
+  text-align: center;
+ }
