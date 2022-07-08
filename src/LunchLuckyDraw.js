@@ -10,7 +10,7 @@ axios.get('http://10.0.1.71:3002/').then((res)=>{
 }).then((res2)=>{
     lun = [...res2]
 });
-//new line
+//new line 2
 //let lun = require('./eat.json');
 
 const Draw = () => {
