@@ -13,7 +13,10 @@ function TimeRemain() {
      var ss = Math.floor(msec / 1000);
      msec -= ss * 1000;
      var diff = hh.toString()+" hours "+mm.toString()+" minutes "+ss.toString() + " seconds.";
-     setTTL(diff);
+     if(hh<0) 
+      setTTL("收工了, 請勿OT");
+     else 
+      setTTL(diff);
    }, 1000);
  });
  
