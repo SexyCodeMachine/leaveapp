@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Clock from "./asset/clock"
  
 function TimeRemain() {
  const [ttl, setTTL] = useState("loading...");
@@ -22,6 +23,7 @@ function TimeRemain() {
  
  return (
      <h1>
+        <Clock></Clock>
         收工 time remain:
        <div className="time">{ttl}</div>
      </h1>

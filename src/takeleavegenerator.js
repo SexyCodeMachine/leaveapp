@@ -22,7 +22,6 @@ const Leave = (Props) => {
 
     const onClick = () => {
         getExcuse();
-        console.log(exc);
         setExcuses(exc);
     };
 
@@ -30,7 +29,7 @@ const Leave = (Props) => {
         <div>
             Mentor's Name: <input type="text" onChange={change} placeholder="something"/>
             <h3>take a Sick leave</h3>
-            <div className="leave msg">Hi {Mentor}, i'm not feeling wel. Can i take leave today?</div>
+            <div className="leave msg">Hi {Mentor}, i'm not feeling well. Can i take leave today?</div>
             <h3>take a leave (random reason)</h3>
             <button onClick={onClick}>Generate</button>
             <div className="leave msg">Hi {Mentor}, i need to take leave today because {excuse}</div>
